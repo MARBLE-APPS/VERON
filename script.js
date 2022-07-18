@@ -127,7 +127,7 @@ speech.text = finalText;
 
 speech.volume = 1;
 speech.rate = 1;
-speech.lang = 'hi-IN';
+speech.lang = 'en-US';
 speech.pitch = 1;
 
 window.speechSynthesis.speak(speech);
