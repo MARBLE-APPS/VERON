@@ -1,3 +1,3 @@
 # VERON
 
-UPDATE 1.0
+UPDATE 1.1
