@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<title>VERON</title>
+  
+</head>
+
+
+
+
+<body id="body" onoffline="offfun()" ononline="onfun()">
+
+
+<div class="top-bar" data-aos="fade-in">
+  
+<button class="menu"><i class="fa fa-bars"></i></button>
+
+<center><h1 class="head" style="font-size: 40px;">VERON</h1></center>
+
+<a href="index.html">
+<button class="refresh"><i class="fa fa-refresh fa-spin"></i></button></a>
+
+</div>
+
+<br><br><br><br><br>
+
+
+<center>
+ <button class="talk"></button>
+</center>
+
+<center>
+<h3 class="content">HI THERE , 👋👋👋</h3>
+</center>
+
+
+
+
+<br>
+
+<div class="container">
+
+
+
+<center>
+<div class="box" id="box" data-aos="fade-in">
+<center>
+<h3 class="msg-content">
+     Are You Ready For The Sci-Fi ?
+</h3></center>
+<div class="btn"><center>
+<button id="start-btn" onclick="showAi()">TAP TO BEGIN ! 
+<i class="fas fa-arrow-right fa-shake"></i></button></center></div></div></center></div>
+
+
+
+<audio src="musics/main sound.wav" id="starting"></audio>
+
+<audio src="musics/Dynamite.mp3" id="Dynamite"></audio>
+
+<audio src="musics/filter.mp3" id="filter"></audio>
+
+
+  
+<!---MAIN AI CONTENT END !-->
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init({
+   offset: 160,
+   duration: 1000,
+});
+</script>
+
+
+</body>
+</html>
