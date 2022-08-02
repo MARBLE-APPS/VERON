@@ -101,7 +101,7 @@ hr{
   height: 70px;
   border: none;
   background-size: cover;
-  background: url(images/button.jpg);
+  background: url("images/button.jpg");
   background-size: cover;
   float: center;
   display: none;
@@ -149,7 +149,7 @@ hr{
 }
 
 .extras{
-  background: url(images/box-3.jpg);
+  background: url("images/box-3.jpg");
   background-size: cover;
   margin-left: 5px;
   width: 345px;
@@ -181,9 +181,6 @@ hr{
 
 
 
-
-
-      
     
 @keyframes spin{
       
