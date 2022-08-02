@@ -1,1 +1,1 @@
-# VERON ( Ver: 1.0 )
+# VERON (Ver: 1.0)
