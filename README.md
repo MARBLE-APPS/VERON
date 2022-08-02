@@ -1,3 +1,1 @@
-# VERON
-
-UPDATE 1.1
+# VERON ( Ver: 1.0 )
